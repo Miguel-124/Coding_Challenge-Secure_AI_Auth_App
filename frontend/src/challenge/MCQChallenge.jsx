@@ -1,5 +1,5 @@
 import "react"
 
-export default function MCQChallenge() { no usages
+export default function MCQChallenge() {
     return <></>
 }

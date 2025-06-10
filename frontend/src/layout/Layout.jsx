@@ -1,5 +1,5 @@
 import "react"
 
-export default function Layout() { no usages
+export default function Layout() {
     return <></>
 }

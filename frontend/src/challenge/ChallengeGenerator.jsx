@@ -1,5 +1,5 @@
 import "react"
 
-export default function ChallengeGenerator() { no usages
+export default function ChallengeGenerator() {
     return <></>
 }

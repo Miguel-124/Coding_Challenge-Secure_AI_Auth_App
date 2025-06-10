@@ -1,5 +1,5 @@
 import "react"
 
-export default function HistoryPanel() { no usages
+export default function HistoryPanel() {
     return <></>
 }
