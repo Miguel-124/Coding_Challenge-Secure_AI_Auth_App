@@ -2,7 +2,7 @@ import "react"
 import {useState, useEffect} from "react"
 import {MCQChallenge} from "./MCQChallenge.jsx"
 
-export default function ChallengeGenerator() {
+export function ChallengeGenerator() {
     const [challenge, setChallenge] = useState(null)
     const [isLoading, setIsLoading] = useState(false)
     const [error, setError] = useState(null)

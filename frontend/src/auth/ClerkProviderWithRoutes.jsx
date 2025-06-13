@@ -7,7 +7,7 @@ if (!PUBLISHABLE_KEY) {
   throw new Error('Missing Publishable Key')
 }
 
-export default function ClerkProviderWithRoutes({ children }) {
+export function ClerkProviderWithRoutes({ children }) {
   return (
     <ClerkProvider publishableKey={PUBLISHABLE_KEY}>
         <BrowserRouter>

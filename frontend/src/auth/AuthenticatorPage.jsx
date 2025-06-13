@@ -1,7 +1,7 @@
 import "react"
 import {SignIn, SignUp, SignedIn, SignedOut} from "@clerk/clerk-react";
 
-export default function AuthenticatorPage() {
+export function AuthenticatorPage() {
     return <div className="auth-container">
         <SignedOut>
             <h1>Please sign in or sign up</h1>
