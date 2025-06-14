@@ -5,7 +5,11 @@ from importlib.metadata import requires
 from openai import OpenAI
 from typing import Dict, Any
 
+from dotenv import load_dotenv
+load_dotenv()
+
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+print("OpenAI API Key:", os.getenv("OPENAI_API_KEY"))
 
 def generate_challenge_with_ai(difficulty: str) -> Dict[str, Any]:
     system_prompt = """You are an expert coding challenge creator. 

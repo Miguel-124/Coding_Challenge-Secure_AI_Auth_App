@@ -2,6 +2,9 @@ from fastapi import FastAPI, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
 from .routes import challenge
 
+from dotenv import load_dotenv
+load_dotenv()
+
 app = FastAPI()
 
 app.add_middleware(
