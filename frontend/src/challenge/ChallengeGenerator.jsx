@@ -16,7 +16,7 @@ export function ChallengeGenerator() {
     const getNextResetTime = () => {}
 
     return <div className="challenge-container">
-    <h2> Codde Challenge Generator </h2>
+    <h2> Code Challenge Generator </h2>
 
         <div className="quota-display">
             <p>Challenges remaining today: {quota?.quota_remaining || 0}</p>
